@@ -14,6 +14,9 @@
         "sourceType": "module",
         "project": ["./tsconfig.json"]
     },
+    "include": [
+        "dist/index.js"
+      ],
     "plugins": [
         "@typescript-eslint"
     ],
